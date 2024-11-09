@@ -1,4 +1,4 @@
-alert('Gambling Notepad built by MahimHz for gambling minigames');
+alert('Gambling notepad built by MahimHz for gambling minigames');
 
 // Array to keep track of the last 3 colors
 let lastColors = [];
