@@ -1,3 +1,5 @@
+alert(Gambling Notepad built by MahimHz for Megahive gambling game);
+
 // Array to keep track of the last 3 colors
 let lastColors = [];
 
