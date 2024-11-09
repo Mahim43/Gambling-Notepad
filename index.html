@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Notepad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gambling Notepad</h1>
+        <div class="buttons">
+            <button class="color-btn" style="background-color: red;" onclick="addNote('red')">Red</button>
+            <button class="color-btn" style="background-color: green;" onclick="addNote('green')">Green</button>
+            <button class="color-btn" style="background-color: black;" onclick="addNote('black')">Black</button>
+        </div>
+        <div id="notepad">
+            <!-- Notes will appear here -->
+        </div>
+        <button class="reset-btn" onclick="resetNotes()">Luck Reset</button>
+        <button class="reset-btn" onclick="location.reload()">Table Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
