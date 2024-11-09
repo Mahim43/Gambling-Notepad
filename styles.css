@@ -116,3 +116,11 @@ h1 {
     width: 100%;  /* Ensure it takes up the full width */
     margin: 20px 0;  /* Adds space before and after the line */
 }
+
+/* Credit text styling */
+.credit {
+    font-size: 16px; /* Medium font size */
+    color: #bbb; /* Light gray color */
+    margin-top: 20px; /* Add space above the text */
+    font-style: italic; /* Optional: Italicize the text */
+}
