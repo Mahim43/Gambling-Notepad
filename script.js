@@ -13,7 +13,7 @@ function addNote(color) {
     if (lastColors.length === 3 && lastColors[0] === lastColors[1] && lastColors[1] === lastColors[2]) {
         if (color === 'red' || color === 'black') {
             const oppositeColor = getOppositeColor(color);
-            alert(`The opposite color (${oppositeColor}) has a high chance of success!`);
+            alert(`${oppositeColor} has a high chance of success!`);
         }
     }
 
@@ -21,7 +21,7 @@ function addNote(color) {
     const notepad = document.getElementById('notepad');
     const note = document.createElement('div');
     note.style.color = color;
-    note.textContent = `${color.charAt(0).toUpperCase() + color.slice(1)} note added`;
+    note.textContent = `${color.charAt(0).toUpperCase() + color.slice(1)} was gambled`;
     notepad.appendChild(note);
 
     // Auto-scroll to the bottom of the notepad
@@ -41,7 +41,7 @@ function resetNotes() {
     resetNote.style.padding = '10px';  // Add padding for consistent spacing
     resetNote.style.margin = '10px 0';  // Space between notes
     resetNote.style.fontSize = '18px';  // Same font size as other notes
-    resetNote.textContent = 'RESET';  // The text to display
+    resetNote.textContent = 'LUCK RESET';  // The text to display
     
     notepad.appendChild(resetNote);
 
